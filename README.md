@@ -63,7 +63,7 @@ src/
     └── healthcheck.sh         # VPN・監視プログラム自動復旧スクリプト
 ```
 
-[ダウンロードはこちらから](https://github.com/mahiromiyake/skycluster-vps/releases/tag/Stable)
+[ダウンロードはこちらから](https://github.com/mahiromiyake/a.t.l.a.s./releases/tag/Stable)
 
 ---
 
