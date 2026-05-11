@@ -1,4 +1,4 @@
-# A.T.L.A.S セットアップガイド
+# A.T.L.A.S. セットアップガイド
 
 **Authenticated Tunnel for Live Astrophotography Streaming**
 
