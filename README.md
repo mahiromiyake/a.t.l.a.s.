@@ -13,12 +13,12 @@
 
 このシステムは StellarMate（天体撮影用 Raspberry Pi）で撮影したライトフレームを自動でスタック処理し、VPS 経由でリアルタイムに公開するためのものです。
 
-StellarMate は OpenVPN でVPSに接続します。新しいFITSファイルが生成されるたびに自動検知・スタック・JPEG変換が行われ、VPSに転送されます。公開/非公開の切り替えはWebコンソールからパスワード認証後に操作できます。
+StellarMate は OpenVPN でVPSに接続します。新しいFITSファイルが生成されるたびに自動検知・スタック・AVIF変換が行われ、VPSに転送されます。公開/非公開の切り替えはWebコンソールからパスワード認証後に操作できます。
 
 ```
 StellarMate (Arch Linux) ← OpenVPN Client + indiserver
   ↓ 新FITSを検知
-  ↓ スタック処理 (Sigma Clipping + 位置合わせ) + JPEG変換
+  ↓ スタック処理 (Sigma Clipping + 位置合わせ) + AVIF変換
   ↓ OpenVPN Tunnel
 VPS (Oracle Cloud) ← OpenVPN Server
   ↓ rsync受信
