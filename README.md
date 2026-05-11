@@ -1,4 +1,4 @@
-# A.T.L.A.S セットアップガイド
+# A.T.L.A.S. セットアップガイド
 
 **Authenticated Tunnel for Live Astrophotography Streaming**
 
@@ -62,6 +62,9 @@ src/
     ├── watch_and_stack.sh     # ファイル監視スクリプト
     └── healthcheck.sh         # VPN・監視プログラム自動復旧スクリプト
 ```
+
+[ダウンロードはこちらから](https://github.com/mahiromiyake/a.t.l.a.s./releases)
+
 
 ---
 
@@ -483,7 +486,7 @@ tail -f ~/healthcheck.log
 
 | 確認項目 | URL/コマンド |
 |---|---|
-| INDI Web Manager | http://skycluster.jp:8624 |
+| INDI Web Manager | http://atlas.skycluster.jp:8624 |
 | コンソールログイン | http://atlas.skycluster.jp:4000/login |
 | 公開ページ | http://atlas.skycluster.jp:4000 |
 | VPN疎通確認 | `ping 10.8.0.1` (StellarMateから) |
